@@ -1,0 +1,139 @@
+
+body {
+  width: 100%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;
+}
+
+
+  
+  .box1 {
+    width: 100%;
+    height: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+  }
+  .box1 .logo {
+    margin-left: 10px;
+  }
+
+.botao{
+margin-left: 31%;
+  margin-top: 50px;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  transition: all 300ms ease;
+  position: static;
+
+
+}
+
+
+  .botao:hover {
+    background: purple;
+    cursor: pointer;
+  }
+ 
+  
+  .h2{
+    padding: 0% 27%;
+    margin-top: 100px;
+    color: #7B1FA2;
+  }
+  #navbar {
+    display: flex;
+    background-color:  #7B1FA2;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+      .navbar-container {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+      }
+  
+
+  .box2{
+    width: 100%;
+    background-color: white;
+  }
+  .box3{
+    margin: 5%;
+    width: 90%;
+    height: 360px;
+    background-image: url(home_background.png);
+    background: url(home_background.png) center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    float:none
+    
+  }
+  .caixa_branca{
+    height: 5px;
+    width: 100px;
+    float: left;
+   }
+
+   .caixa1{
+    padding-bottom: 100px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 7%;
+    text-align: center;
+   }
+
+   .imagem1{
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+   }
+
+   .caixa2{
+    padding-left: 1%;
+    padding-bottom: 100px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 7%;
+    text-align: center;
+   }
+   .imagem2{
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+   }
+
+   
+   .caixa3{
+    padding-left: 1%;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 7%;
+    text-align: center;
+   }
+
+   .imagem3{
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+   }
+
+   
